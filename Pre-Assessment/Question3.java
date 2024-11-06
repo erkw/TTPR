@@ -8,7 +8,7 @@ public class Question3 {
         for (int i = 0; i < str1.length(); i++) {
             char char1 = str1.charAt(i);
 
-            // Check if the character is in the second string and not already added
+            // Checks if the character in str1 is in the str2 and adds it to the commonLetters list
             if (str2.indexOf(char1) != -1 && !commonLetters.contains(char1)) {
                 commonLetters.add(char1);
             }
